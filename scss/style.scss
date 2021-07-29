@@ -1,0 +1,31 @@
+* {
+  /* selector universal */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+// verificar fuente
+$fontGlobal: "Noto Sans JP", sans-serif;
+$tablet: 768px;
+$desktop: 1024px;
+html {
+  // 10px=1rem
+
+  font-size: 62.5%;
+  position: relative;
+  min-height: 100%;
+}
+body {
+  font-size: 1.6rem;
+}
+@import "header";
+@import "footer";
+@import "main-index";
+@import "contacto-html";
+@import "servicios-html";
+@import "portfolio-html";
+@import "nosotros-html";
+@import "animaciones";
+@import "tablet";
+@import "desktop";

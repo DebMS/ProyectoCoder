@@ -1,0 +1,94 @@
+.body__servicios {
+  background: linear-gradient(to bottom, black, rgba(7, 7, 7, 0.425));
+}
+.main__servicios {
+  display: grid;
+  grid-template-areas:
+    "titulo"
+    "box1"
+    "box2"
+    "box3";
+  grid-template-columns: 1fr;
+  grid-template-rows: 5em 1fr 1fr 1fr;
+  padding: 5% 0;
+
+  .titulo__servicios {
+    font-family: $fontGlobal;
+    text-align: center;
+    font-size: 3.5rem;
+    color: white;
+    grid-area: "titulo";
+    animation: aparecer 7s;
+  }
+
+  .box1 {
+    grid-area: "box1";
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+
+    .h3 {
+      text-align: center;
+      font-size: 3rem;
+      background-color: gray;
+      color: white;
+    }
+    .parrafo1 {
+      padding: 1em 2em 3em 2em;
+      text-align: justify;
+      color: white;
+      font-size: 2rem;
+    }
+    .diseño {
+      margin: 10px auto;
+      padding: 10%;
+      width: 70%;
+    }
+  }
+  .box2 {
+    grid-area: "box2";
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    .h3 {
+      text-align: center;
+      font-size: 3rem;
+      background-color: gray;
+      color: white;
+    }
+    .parrafo2 {
+      padding: 1em 2em 3em 2em;
+      text-align: justify;
+      color: white;
+      font-size: 2rem;
+    }
+    .posicionamiento {
+      margin: 10px auto;
+      padding: 10%;
+      width: 70%;
+    }
+  }
+  .box3 {
+    grid-area: "box3";
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    .h3 {
+      text-align: center;
+      font-size: 3rem;
+      background-color: gray;
+      color: white;
+    }
+    .parrafo3 {
+      padding: 1em 2em 3em 2em;
+      text-align: justify;
+      color: white;
+      font-size: 2rem;
+    }
+    .mantenimiento {
+      margin: 10px auto;
+      padding: 10%;
+      width: 70%;
+    }
+  }
+}

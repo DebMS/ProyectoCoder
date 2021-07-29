@@ -1,0 +1,64 @@
+@media screen and (min-width: $tablet) {
+  main {
+    .novedades {
+      .contenedor__p {
+        .parrafos {
+          .parrafo1 {
+            .imgp1 {
+              //   padding: 1em;
+              width: auto;
+              height: 250px;
+            }
+          }
+          .parrafo2 {
+            .imgp2 {
+              //   padding: 1em;
+              width: auto;
+              height: 250px;
+            }
+          }
+          .parrafo3 {
+            .imgp3 {
+              width: auto;
+              height: 250px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .main__servicios {
+    padding: 1em;
+    display: grid;
+    grid-template-areas:
+      "title title title"
+      "box1 box2 box3";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-gap: 5px;
+    .titulo__servicios {
+      grid-area: title;
+      text-align: center;
+      padding: 2em;
+    }
+    .box1 {
+      grid-area: box1;
+      .h3 {
+        height: 80px;
+      }
+    }
+    .box2 {
+      grid-area: box2;
+      .h3 {
+        height: 80px;
+      }
+    }
+    .box3 {
+      grid-area: box3;
+      .h3 {
+        height: 80px;
+      }
+    }
+  }
+}

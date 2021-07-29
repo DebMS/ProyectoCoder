@@ -1,0 +1,48 @@
+.main__nosotros {
+  .titulo__main {
+    .titulo__h1__main {
+      text-align: center;
+      padding: 2.5em;
+      font-size: 3rem;
+      font-family: $fontGlobal;
+      color: white;
+      background: linear-gradient(to bottom, black, rgba(7, 7, 7, 0.425));
+    }
+  }
+  .parrafo__nosotros {
+    .grid__parrafos {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      .imagen-left {
+        float: left;
+        padding: 2em;
+        img {
+          width: 100%;
+          height: auto;
+          padding: 3em 0;
+        }
+      }
+      .p__nos {
+        p {
+          padding: 2em;
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+  //   .parrafo__nosotros {
+  //     padding: 5em 2em;
+  //     .p__nos {
+  //       text-align: right;
+  //       font-size: 3rem;
+  //       padding: 0 0;
+  //     }
+  //     .nosotros__img {
+  //       width: 15em;
+  //       height: 16em;
+  //       text-align: center;
+  //       padding: 0 1em 2em 1em;
+  //     }
+  //   }
+}
