@@ -5,10 +5,7 @@
   list-style: none;
   box-sizing: border-box;
 }
-// verificar fuente
-$fontGlobal: "Noto Sans JP", sans-serif;
-$tablet: 768px;
-$desktop: 1024px;
+
 html {
   // 10px=1rem
 
@@ -19,9 +16,10 @@ html {
 body {
   font-size: 1.6rem;
 }
+@import "variables";
 @import "header";
-@import "footer";
 @import "main-index";
+@import "footer";
 @import "contacto-html";
 @import "servicios-html";
 @import "portfolio-html";
