@@ -22,7 +22,7 @@
   }
 
   .box1 {
-    grid-area: "box1";
+    grid-area: box1;
     display: flex;
     flex-direction: column;
     // justify-content: center;
@@ -46,7 +46,7 @@
     }
   }
   .box2 {
-    grid-area: "box2";
+    grid-area: box2;
     display: flex;
     flex-direction: column;
     // justify-content: center;
@@ -69,7 +69,7 @@
     }
   }
   .box3 {
-    grid-area: "box3";
+    grid-area: box3;
     display: flex;
     flex-direction: column;
     // justify-content: center;
